@@ -1,3 +1,4 @@
+; выводит текст в консоль
 NULL EQU 0
 STD_OUTPUT_HANDLE EQU -11
 STD_INPUT_HANDLE EQU -10
