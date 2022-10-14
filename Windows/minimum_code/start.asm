@@ -12,6 +12,10 @@ global Start
 
 ;инициализированные данные
 section .data
+ ;DB - Define Byte. 8 bits
+ ;DW - Define Word. Generally 2 bytes on a typical x86 32-bit system
+ ;DD - Define double word. Generally 4 bytes on a typical x86 32-bit system
+ array   dd 89, 10, 67, 1, 4, 27, 12, 34, 86, 3
 
 ;неинициализированные данные
 section .bss
