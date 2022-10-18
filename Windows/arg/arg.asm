@@ -20,7 +20,7 @@ global Start
 ;    argvstr     db `argv[%u] = %s\n\0`
 
 ;неинициализированные данные
-section .bss
+;section .bss
  ;RESB 1 allocates 1 byte.
  ;RESW 1 allocates 2 bytes.
  ;RESD 1 allocates 4 bytes.
