@@ -52,4 +52,7 @@
     cmp al, bl
 
     ; Если байты равны, переходим к метке equal
-    je equal```
+    je equal
+    ; Если байты не равны, переходим к метке not_equal
+    jne not_equal
+```
